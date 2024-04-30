@@ -14,3 +14,7 @@ alias dri="docker rmi"
 alias dcu="docker compose up -d"
 alias dcd="docker compose down"
 ```
+
+### install
+- Add aliases to `~/.profile`
+- To use aliases immediately run `source ~/.profile`
