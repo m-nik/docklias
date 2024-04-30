@@ -17,4 +17,4 @@ alias dcd="docker compose down"
 
 ### install
 - Add aliases to `~/.profile`
-- To use aliases immediately run `source ~/.profile`
+- To immediately use aliases run `source ~/.profile`
