@@ -19,5 +19,5 @@ alias dex="docker exec -it"
 
 ### install
 - Add aliases to `~/.docker/.docklias`
-- To persist aliases add `source ~/.docker/.docklias` to `~/.bashrc` or `~/.profile`
+- To persist aliases add `source ~/.docker/.docklias` to `~/.bashrc`
 - To immediately use aliases run `source ~/.docker/.docklias`
