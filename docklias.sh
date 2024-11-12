@@ -3,7 +3,7 @@
 
 mkdir ~/.docker 2>/dev/null | true
 
-
+# aliases
 cat <<EOF > ~/.docker/.docklias
 alias dps="docker ps"
 alias dimg="docker images"
