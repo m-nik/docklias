@@ -18,9 +18,9 @@ alias dex="docker exec -it"
 ```
 
 ### install
-##### direct
+##### Simple and quick
 ```sh
-wget https://raw.githubusercontent.com/m-nik/docklias/main/docklias.sh 2>/dev/null && sh docklias.sh && source ~/.docker/.docklias
+wget https://raw.githubusercontent.com/m-nik/docklias/main/docklias.sh 2>/dev/null && sh docklias.sh && source ~/.docker/.docklias && source ~/.docker/.docklias_completion
 ```
 ##### manual
 - Add aliases to `~/.docker/.docklias`
