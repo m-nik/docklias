@@ -15,6 +15,7 @@ alias dri="docker rmi"
 alias dcu="docker compose up -d"
 alias dcd="docker compose down"
 alias dex="docker exec -it"
+alias cdp="docker cp"
 ```
 
 ### install
