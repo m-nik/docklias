@@ -16,6 +16,7 @@ alias dri="docker rmi"
 alias dcu="docker compose up -d"
 alias dcd="docker compose down"
 alias dex="docker exec -it"
+alias dcp="docker cp"
 EOF
 
 cat <<EOF > ~/.docker/.docklias_completion
