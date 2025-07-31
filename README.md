@@ -21,7 +21,7 @@ alias dcp="docker cp"
 ### install
 ##### Simple and quick
 ```sh
-wget https://raw.githubusercontent.com/m-nik/docklias/main/docklias.sh 2>/dev/null && sh docklias.sh && source ~/.docker/.docklias && source ~/.docker/.docklias_completion
+wget https://raw.githubusercontent.com/m-nik/docklias/main/docklias.sh 2>/dev/null && sh docklias.sh && source ~/.docker/.docklias && source ~/.docker/.docklias_completion && rm docklias.sh
 ```
 ##### manual
 - Add aliases to `~/.docker/.docklias`
