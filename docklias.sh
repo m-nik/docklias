@@ -15,6 +15,9 @@ alias drm="docker rm"
 alias dri="docker rmi"
 alias dcu="docker compose up -d"
 alias dcd="docker compose down"
+alias dclog="docker compose logs -f"
+alias dcl="docker compose ls"
+alias dcps="docker compose ps"
 alias dex="docker exec -it"
 alias dcp="docker cp"
 EOF
@@ -62,6 +65,18 @@ _docker_alias_complete() {
             options="--remove-orphans --timeout"
             items=\$(docker compose config --services 2>/dev/null)
             ;;
+        dclog)
+            options="--remove-orphans --timeout"
+            items=\$(docker compose config --services 2>/dev/null)
+            ;;
+        dcl)
+            options="--remove-orphans --timeout"
+            items=\$(docker compose config --services 2>/dev/null)
+            ;;
+        dcps)
+            options="--remove-orphans --timeout"
+            items=\$(docker compose config --services 2>/dev/null)
+            ;;
         dex)
             options="--detach --env --workdir"
             items=\$(docker ps --format '{{.Names}}' 2>/dev/null)
@@ -82,6 +97,9 @@ complete -F _docker_alias_complete drm
 complete -F _docker_alias_complete dri
 complete -F _docker_alias_complete dcu
 complete -F _docker_alias_complete dcd
+complete -F _docker_alias_complete dclog
+complete -F _docker_alias_complete dcl
+complete -F _docker_alias_complete dcps
 complete -F _docker_alias_complete dex
 EOF
 
